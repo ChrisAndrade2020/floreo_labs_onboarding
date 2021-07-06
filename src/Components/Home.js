@@ -23,7 +23,7 @@ class Home extends Component{
 
             <div className="searchDiv">
 
-            <h1> This the Home Page </h1>
+            <h1> Home Page </h1>
 
                 <div>
                     <h2> Nothing much happens here cuz I couldn't refactor my code so like just go away or something</h2>

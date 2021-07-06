@@ -8,7 +8,7 @@ class BuildLog extends Component{
 
                 <div className="searchDiv">
                     
-                    <h1> This the About/ Build Log Page </h1>
+                    <h1> About/ Build Log Page </h1>
 
                 </div>
 
