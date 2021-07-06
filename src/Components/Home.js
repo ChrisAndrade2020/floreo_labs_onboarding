@@ -1,9 +1,23 @@
 import React, { Component } from "react"
-import { BrowserRouter, Router, Route, Link, Switch} from 'react-router-dom';
-import ReactDOM from 'react-dom';
-import giphy from "./giphy";
+const axios = require('axios');
 
 class Home extends Component{
+
+    updateInput = (event) =>{
+        event.preventDefault();
+        this.setState({
+            input: event.target.value
+        });
+    }
+
+    onSubmit = (event) =>{  
+        event.preventDefault();
+        const SavedStuff = {
+            input: this.state.userInput
+        }
+    }
+
+
     render(){
         return(
 
@@ -15,7 +29,7 @@ class Home extends Component{
                     <h2> Nothing much happens here cuz I couldn't refactor my code so like just go away or something</h2>
                     <h2> Like, just click something else on the nav bar</h2>
                 
-                    <input type="text" onChange = {this.something} placeholder = "Put something on here" required/>
+                    <input type="text" onChange = {this.something} placeholder = "This don't work" required/>
                     <button type="submit">Submit</button>
 
                 </div>
@@ -23,4 +37,5 @@ class Home extends Component{
             </div>
         )
     }
-}export default Home;
+}
+export default Home;

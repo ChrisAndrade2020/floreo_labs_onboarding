@@ -1,30 +1,31 @@
 import React, { Component } from "react"
-import { BrowserRouter, Router, Route, Link, Switch} from 'react-router-dom';
-import ReactDOM from 'react-dom';
-import giphy from "./giphy";
 
 class BuildLog extends Component{
     render(){
         return(
 
-            <div className="searchDiv">
-                
-                <h1> This the About/ Build Log Page </h1>
+            <div>
+
+                <div className="searchDiv">
+                    
+                    <h1> This the About/ Build Log Page </h1>
+
+                </div>
 
                 <div class="logs">
-            
+                
                     <div class="log">
 
                         <h3 > Build Log 07/01/2021 (Afternoon) </h3>
 
                             <p> 
-                            Finished Step 1 locally Easy Peasy, but forgot I was supposed to plan ahead for the onboarding project 
-                            and not just code along exactly as the video said to do. Redid Step 1 with a bit more foresight.
-                            Got distracted and didn't manage to start Step 2 today. No challenges as of yet encountered, Brianna
-                            and Mariana are asking good stuff! So, I'm hoping I can fully utilize whatever answers the "mentor-homies" 
-                            come up with.
+                                Finished Step 1 locally Easy Peasy, but forgot I was supposed to plan ahead for the onboarding project 
+                                and not just code along exactly as the video said to do. Redid Step 1 with a bit more foresight.
+                                Got distracted and didn't manage to start Step 2 today. No challenges as of yet encountered, Brianna
+                                and Mariana are asking good stuff! So, I'm hoping I can fully utilize whatever answers the "mentor-homies" 
+                                come up with.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -37,7 +38,7 @@ class BuildLog extends Component{
                                 from a previous project we did in the TTP Bootcamp. A little lazy? I don't know, maybe just efficient? lol This whole thing still
                                 Subject to change though.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -51,12 +52,12 @@ class BuildLog extends Component{
                                 Nah, I just need to manage my time better. I honestly think I won't have enough time to finish the refactoring and backend
                                 part of the project. Started a day and a half late, gotta iron out the procrastination. It's not helping me out.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
 
-                        <h3 > Build Log 07/02/2021 (Late Night) </h3>
+                        <h3> Build Log 07/02/2021 (Late Night) </h3>
 
                             <p>
                                 Totally going head first here by not doing the backend at all yet, but I gotta do what I can for now. I got a working GIPHY Page and 
@@ -65,7 +66,7 @@ class BuildLog extends Component{
                                 and that sort of thing. I need to brush up on that. Other stuff I need to do, need to do the Saved Page. Stuff I managed to get done is the 
                                 About ( I call it Build Log ) Page. Overall no major challenges so far.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -77,7 +78,7 @@ class BuildLog extends Component{
                                 I was trying to add links without having a path for the program to follow so clicking links didn't do anything, but that's all patched up.
                                 Signing out for today, lots of cooking and eating. Hopefully I can do more tomorrow, since I started a bit late and I need to catch up.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -89,7 +90,7 @@ class BuildLog extends Component{
                                 search function (its kinda wonky), and see how far I can get with refactoring. Since that's probably something that I'll have trouble
                                 with, but have been ignoring. Maybe I should see a therapist for avoidance or something lol. 
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -102,7 +103,7 @@ class BuildLog extends Component{
                                 stuff as I go. I'm expecting to have a hard time trying to refactor the program with the backend-frontend running on one server,
                                 realistically might not be able to finish that part, but If I go, there's just no telling how far I'll go (Moana reference)
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -113,7 +114,7 @@ class BuildLog extends Component{
                                 Woke up late again today, not good. A little panicky rn since this is up for review tomorrow at 11. But, honest effort I guess. Last stretch?
                                 Going to try that refactoring probably up until the last hour before stand up tomorrow.
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -124,7 +125,7 @@ class BuildLog extends Component{
                                 Last 3 hour effort to get that refactoring portion in. (Actually wasting a bit of time writing this in the build log lmao) Honestly, 
                                 I should've just started sooner and asked more questions. Hindsight is 20/20 and what's done is done. 
                             </p>
-                
+                    
                     </div>
 
                     <div class="log">
@@ -138,7 +139,7 @@ class BuildLog extends Component{
                                 linking things together, and general full-stack knowledge. I can sort of see now that full-stack development requires a "plan" plan and
                                 not just an outline. 
                             </p>
-                
+                    
                     </div>
 
                 </div>
