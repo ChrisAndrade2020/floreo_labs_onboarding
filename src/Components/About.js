@@ -110,6 +110,18 @@ class BuildLog extends Component{
 
                             <p>
                                 Woke up late again today, not good. A little panicky rn since this is up for review tomorrow at 11. But, honest effort I guess. Last stretch?
+                                Going to try that refactoring probably up until the last hour before stand up tomorrow.
+                            </p>
+                
+                    </div>
+
+                    <div class="log">
+
+                        <h3 > Build Log 07/06/2021 (8AM) </h3>
+
+                            <p>
+                                Last 3 hour effort to get that refactoring portion in. (Actually wasting a bit of time writing this in the build log lmao) Honestly, 
+                                I should've just started sooner and asked more questions. Hindsight is 20/20 and what's done is done. 
                             </p>
                 
                     </div>

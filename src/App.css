@@ -2,7 +2,7 @@ h1 {
   text-align: center;
   color: black;
   font-family: sans-serif;
-  font-size: 5vh;
+  font-size: 1in;
 }
 
 h2 {
@@ -18,14 +18,14 @@ h2 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.1vh;
+  font-size: 1.1cm;
 }
 
 h3 {
   text-align: center;
   color: black;
   font-family: sans-serif;
-  font-size: 1vh;
+  font-size: 1cm;
 }
 
 p {
