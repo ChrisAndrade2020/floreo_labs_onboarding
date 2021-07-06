@@ -86,7 +86,8 @@ class BuildLog extends Component{
 
                             <p>
                                 Woke up pretty late today. Had my Coffee and ready to work. Stuff to do: Actually put the code to GitHub, try to fix the GIPHY
-                                search function (its kinda wonky). 
+                                search function (its kinda wonky), and see how far I can get with refactoring. Since that's probably something that I'll have trouble
+                                with, but have been ignoring. Maybe I should see a therapist for avoidance or something lol. 
                             </p>
                 
                     </div>
@@ -117,11 +118,25 @@ class BuildLog extends Component{
 
                     <div class="log">
 
-                        <h3 > Build Log 07/06/2021 (8AM) </h3>
+                        <h3 > Build Log 07/06/2021 (7AM) </h3>
 
                             <p>
                                 Last 3 hour effort to get that refactoring portion in. (Actually wasting a bit of time writing this in the build log lmao) Honestly, 
                                 I should've just started sooner and asked more questions. Hindsight is 20/20 and what's done is done. 
+                            </p>
+                
+                    </div>
+
+                    <div class="log">
+
+                        <h3 > Build Log 07/06/2021 (10AM) </h3>
+
+                            <p>
+                                Yeah, I couldn't get the backend done. I spent too much time on the front end and trying to learn and relearn some things from the TTP
+                                and the resources provided for us by the Lab. I did have some references in the form of our TTP projects, but I just couldn't get it done. 
+                                Challenges? Personal hurdles for me were time management, foresight, and work discipline. Technical hurdles were refactoring, pathing, 
+                                linking things together, and general full-stack knowledge. I can sort of see now that full-stack development requires a "plan" plan and
+                                not just an outline. 
                             </p>
                 
                     </div>
