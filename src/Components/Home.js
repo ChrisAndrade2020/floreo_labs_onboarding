@@ -1,13 +1,14 @@
 import React, { Component } from "react"
 import { BrowserRouter, Router, Route, Link, Switch} from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import App from giphy;
+import giphy from "./giphy";
 
 class Home extends Component{
     render(){
         return(
-            
-            <Link to= "/giphy" className= "makeResButton"> GIPHY Page</Link>
+            <BrowserRouter>
+                <Link to= "/giphy" className= "giphyPage"> GIPHY Page</Link>
+            </BrowserRouter>
             
         )
     }

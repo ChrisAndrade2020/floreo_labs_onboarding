@@ -6,7 +6,7 @@ import React from "react";
 
 // Dis is my giphy key KXVc0eMXVYUZdSxAVn6IIFlaIp2i4Z1o
 
-class App extends React.Component {
+class giphy extends React.Component {
     
     constructor(props) {
         
@@ -110,4 +110,4 @@ class App extends React.Component {
         
 }
 
-export default App;
+export default giphy;
