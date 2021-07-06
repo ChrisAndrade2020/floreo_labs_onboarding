@@ -28,6 +28,11 @@ h3 {
   font-size: 1vh;
 }
 
+p {
+  text-align: left;
+  font-weight: bolder;
+}
+
 form {
   text-align: center;
 }
@@ -71,4 +76,17 @@ div.searchDiv {
 .navBar {
   background-color: white;
   padding: 1vh;
+}
+
+.log {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1vh;
+  margin: 1vh;
+  padding: 1vh;
+  justify-content: space-between;
 }

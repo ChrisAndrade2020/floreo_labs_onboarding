@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Link, Switch} from 'react-router-dom';
 //importing components
 import Giphy from './Components/giphy';
 import Home from './Components/Home';
+import BuildLog from './Components/About';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
 
       <div className="navBar">
         <Link to="./Home" className="navigationItems"> <h3> Home </h3></Link>
-        <Link to="./giphy" className="navigationItems"> <h3> GIPHY Page </h3></Link>
+        <Link to="./giphy" className="navigationItems"> <h3> GIPHY </h3></Link>
+        <Link to="./About" className="navigationItems"> <h3> About / Build Log </h3></Link>
       </div>
         
         <Switch>
@@ -22,6 +24,10 @@ function App() {
 
           <Route path="/giphy">
             <Giphy />
+          </Route>
+
+          <Route path="/About">
+            <BuildLog />
           </Route>
 
     
