@@ -6,10 +6,12 @@ import giphy from "./giphy";
 class Home extends Component{
     render(){
         return(
-            <BrowserRouter>
-                <Link to= "/giphy" className= "giphyPage"> GIPHY Page</Link>
-            </BrowserRouter>
-            
+
+            <div className="searchDiv">
+            <h1> This the Home Page </h1>
+            <h2> Nothing goin on here so like just go away or something</h2>
+            <h2> Like, just click something in the nav bar</h2>
+            </div>
         )
     }
 }export default Home;
